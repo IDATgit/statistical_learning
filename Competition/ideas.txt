@@ -1,0 +1,80 @@
+# ideas for next session:
+
+# Playing with Models
+# elastic net model
+# Random Forest
+# Boosting
+# Neural Net model
+# Stacking
+
+# Features selection / dimensionallity reduction
+testing dim reduction techniques:
+# SVD / PCA (same thing)
+# Look up in the internet for other techniques
+# is there any technique which bootstraping the feature selection?
+# what are the measurements we can use to tell if a feature is usefull or not?
+
+
+# Playing with features
+# how to take advantage of dates?
+# add genere of movie
+
+
+# Conceptioal questions:
+# How to tell if a model is bias dominant or variance dominant?
+# If i know the question for the previous question, how can i use this information to improve the model?
+
+
+# Other
+# quantize back to valid if you sure about outcome (assign prob to each class and decide if it is worth it in MSE sense
+  to quantize.
+
+# add classification algorithm, samples with high likelyhood on a specific category, choose that catagory
+(another way to think of quantization in a more 'statistical' way.
+
+
+
+
+# Tasks
+- modelling phase -
+# elastic search model
+# Random Forrest model
+# Boosting model
+# Stacking all the previous models
+# NN model
+# stacking with NN
+
+- feature addition phase 1 -
+# find a way to add dates features, test the effect on previous models.
+
+- feature selection phase -
+# use SVD for feature reduction, and test the effect on all of the previous models
+# Look up for other feature reduction techniques and see the effect on previous models
+
+
+- feature addition phase 2 -
+# Look for other features to add (IMDB?) can take examples from the actual netflix prize competition.
+
+
+
+
+
+3.12.22 summary
+# linear regression, fill missing data-points # done
+# add indicator for missing data-points # done
+# linear regression on full data + cross validate # done
+# Ridge regression helps?, find optimal point # done
+# Lasso regression helps? find optimal point # done
+
+
+
+
+
+
+
+
+
+
+
+
+
