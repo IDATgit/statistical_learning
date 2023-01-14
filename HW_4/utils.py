@@ -6,10 +6,10 @@ url_test_x = 'http://www.tau.ac.il/~saharon/StatsLearn2022/test_ratings_all.dat'
 
 
 def load_test_x():
-    data = _load_data_single_url(url_test_x)
+    data = load_data_single_url(url_test_x)
     return data
 
-def _load_data_single_url(url):
+def load_data_single_url(url):
     data = []
     for line in urllib.request.urlopen(url):
         x = line.decode('utf-8')
@@ -21,12 +21,12 @@ def _load_data_single_url(url):
     return data
 
 def load_training_data():
-    X = _load_data_single_url(url_train_x)
-    Y = _load_data_single_url(url_train_y)
+    X = load_data_single_url(url_train_x)
+    Y = load_data_single_url(url_train_y)
     return X, Y
 
 def load_training_x():
-    return _load_data_single_url(url_train_x)
+    return load_data_single_url(url_train_x)
 
 def load_training_y():
-    return _load_data_single_url(url_train_y)
+    return load_data_single_url(url_train_y)
